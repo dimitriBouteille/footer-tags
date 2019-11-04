@@ -1,0 +1,28 @@
+{
+  "name": "dbout/footer-tags",
+  "description": "Customize and automate footer of your layouts.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["tag", "php", "html", "footer", "script"],
+  "homepage": "https://github.com/dimitriBouteille/footer-tags/",
+  "support": {
+    "issues": "https://github.com/dimitriBouteille/footer-tags/issues"
+  },
+  "authors": [
+    {
+      "name": "Dimitri Bouteille",
+      "email": "bonjour@dimitri-bouteille.fr",
+      "homepage": "https://github.com/dimitriBouteille",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Dbout\\FooterTags\\": "src/"
+    }
+  }
+}
